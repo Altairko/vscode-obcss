@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 _Still work in progress..._
 
+## 0.1.0 - 2019-02-17
+
+### Added
+
+- More comprehensive css property mappings
+
 ## 0.0.1 - 2019-02-17
 
 ### Added

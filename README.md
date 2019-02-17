@@ -8,6 +8,12 @@
 
 As react develoers, we find ourselves in a split world for styling. World of CSS syntax and JS style object syntax. More different projects you work on, the more pain it becomes. Especially if you need to change between the syntax often. This VSCode extension is here to rescue ⛑️. 
 
+## Installation
+
+Go to the link below and click `Install`.
+
+[Visual Studio Code Market Place: OBSCSS](https://marketplace.visualstudio.com/items?itemName=samuherek.obcss)
+
 ## Features
 
 Main features:

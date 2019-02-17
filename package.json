@@ -2,7 +2,7 @@
   "name": "obcss",
   "displayName": "OBCSS - css/obj property + values converter",
   "description": "Quick refactoring from style object values to CSS values and vice versa",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "samuherek",
   "icon": "assets/icon.png",
   "repository": {
