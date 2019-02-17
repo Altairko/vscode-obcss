@@ -1,8 +1,14 @@
 {
   "name": "obcss",
   "displayName": "obcss",
-  "description": "Object to CSS and CSS to Object",
+  "description": "Quick refactoring from style object values to CSS values and vice versa",
   "version": "0.0.1",
+  "published": "samuherek",
+  "icon": "assets/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samuherek/vscode-obcss"
+  },
   "engines": {
     "vscode": "^1.31.0"
   },
