@@ -1,5 +1,9 @@
 # VSCode OBCSS
 
+<p align="left">
+  <img src="https://github.com/samuherek/vscode-obcss/blob/master/assets/github_logo.png?raw=true" width="200px">
+</p>
+
 > The extension provides simple command for refactoring CSS values to Style object and vice versa.
 
 As react develoers, we find ourselves in a split world for styling. World of CSS syntax and JS style object syntax. More different projects you work on, the more pain it becomes. Especially if you need to change between the syntax often. This VSCode extension is here to rescue ⛑️. 
