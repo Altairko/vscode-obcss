@@ -10,17 +10,26 @@ As react develoers, we find ourselves in a split world for styling. World of CSS
 
 ## Features
 
+Main features:
+- Convert a CSS block into inline style values
+- Convert an inline style values into CSS block
+
+### Convert CSS block to inline styles obj
+
+![Example of css to inline style convertion](https://github.com/samuherek/vscode-obcss/blob/master/assets/css-to-obj.gif?raw=true)
+
+### Convert inline styles obj to CSS block 
+
+![Example of inline style to css conversion](https://github.com/samuherek/vscode-obcss/blob/master/assets/obj-to-css.gif?raw=true)
 
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+**Planning features:**
+- [ ] Add all CSS properties to the css values map.
+- [ ] Copy the converted block into clipboard for a quick paste.
+- [ ] Select an inline HTML tag with inline styles and convert it inot an "Emotion" or "Styled-component".
+- [ ] Select an "Emotion" or "Styled-component" and convert it into an HTML tag with inline styles.
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Known Issues
+## Known Issues - IMPORTANT!
 
 This extension is still in development. It will work correctly only under certain conditions described in the features.
 
