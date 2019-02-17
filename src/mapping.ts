@@ -13,6 +13,7 @@ export interface Mapping {
 
 const mapping = {
   jsToCss: {
+    alignItems: 'align-items',
     background: 'background',
     backgroundAttachment: 'background-attachment',
     backgroundColor: 'background-color',
@@ -53,6 +54,7 @@ const mapping = {
     fontVariant: 'font-variant',
     fontWeight: 'font-weight',
     height: 'height',
+    justifyContent: 'justify-content',
     left: 'left',
     letterSpacing: 'letter-spacing',
     lineHeight: 'line-height',
@@ -65,6 +67,7 @@ const mapping = {
     marginLeft: 'margin-left',
     marginRight: 'margin-right',
     marginTop: 'margin-top',
+    outline: 'outline',
     overflow: 'overflow',
     padding: 'padding',
     paddingBottom: 'padding-bottom',
@@ -83,12 +86,14 @@ const mapping = {
     textTransform: 'text-transform',
     top: 'top',
     transition: 'transition',
+    userSelect: 'user-select',
     verticalAlign: 'vertical-align',
     visibility: 'visibility',
     width: 'width',
     zIndex: 'z-index'
   },
   cssToJs: {
+    'align-items': 'alignItems',
     'background-attachment': 'backgroundAttachment',
     'background-color': 'backgroundColor',
     'background-image': 'backgroundImage',
@@ -118,6 +123,7 @@ const mapping = {
     'font-size': 'fontSize',
     'font-variant': 'fontVariant',
     'font-weight': 'fontWeight',
+    'justify-content': 'justifyContent',
     'letter-spacing': 'letterSpacing',
     'line-height': 'lineHeight',
     'list-style-image': 'listStyleImage',
@@ -141,6 +147,7 @@ const mapping = {
     'text-decoration': 'textDecoration',
     'text-indent': 'textIndent',
     'text-transform': 'textTransform',
+    'user-select': 'userSelect',
     'vertical-align': 'verticalAlign',
     'z-index': 'zIndex',
     background: 'background',
@@ -156,6 +163,7 @@ const mapping = {
     height: 'height',
     left: 'left',
     margin: 'margin',
+    outline: 'outline',
     overflow: 'overflow',
     padding: 'padding',
     position: 'position',
