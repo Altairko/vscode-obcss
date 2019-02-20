@@ -1,8 +1,7 @@
 import mapping, { Mapping } from '../mapping';
 import { trim, map, toNumber, isNaN } from 'lodash';
-import { selectedText } from '../editor';
-import { persistFileSystemChanges } from '../file-system';
-import { replaceSelectionWith, handleError } from '../code-actions';
+import { getExpandedRange, selectedTextExpanded, updateSelection } from '../editor';
+import { handleError, replaceText } from '../code-actions';
 
 function getCSSKey(jsKey: string): string {
   const value = (mapping as Mapping).jsToCss[jsKey];
@@ -38,8 +37,13 @@ function convertJSToCSS(text: string): string {
 
 export async function objToCss() {
   try {
-    const selectionProccessingResult = convertJSToCSS(selectedText());
-    await persistFileSystemChanges(replaceSelectionWith(selectionProccessingResult));
+    const expandedRange = getExpandedRange();
+    const result = convertJSToCSS(selectedTextExpanded());
+    await replaceText(expandedRange, result);
+    updateSelection(expandedRange);
+    // Comment: below is the old code inspired from vscode-glean extension:
+    // const selectionProccessingResult = convertJSToCSS(selectedText());
+    // await persistFileSystemChanges(replaceSelectionWith(selectionProccessingResult));
   } catch (e) {
     handleError(e);
   }

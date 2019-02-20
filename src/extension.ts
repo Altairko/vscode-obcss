@@ -8,6 +8,18 @@ export function activate(context: vscode.ExtensionContext) {
   const objectToCss = vscode.commands.registerCommand('extension.obcss.obj-to-css', objToCss);
   const cssToObject = vscode.commands.registerCommand('extension.obcss.css-to-obj', cssToObj);
 
+  // console.log('==================');
+
+  // vscode.commands.getCommands().then(res => {
+  // console.log(res);
+  // });
+
+  // vscode.commands.
+
+  // const files = vscode.workspace.getConfiguration('files');
+  // console.log(files);
+  // console.log(files.get('eol', '\n'));
+
   context.subscriptions.push(objectToCss);
   context.subscriptions.push(cssToObject);
 }
