@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 _Still work in progress..._
 
+## 0.1.1 - 2019-02-20
+
+### Bug Fixes
+
+- Make sure we always select the full block
+
 ## 0.1.0 - 2019-02-17
 
 ### Added
